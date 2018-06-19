@@ -1,0 +1,11 @@
+{
+    "name": "umm@unirx_observablesimpleanimation",
+    "references": [
+        "umm@simple_animation",
+        "umm@unirx"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

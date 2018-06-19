@@ -1,0 +1,32 @@
+{
+  "name": "@umm/unirx_observablesimpleanimation",
+  "version": "1.0.0",
+  "description": "UniRx extensions for SimpleAnimation",
+  "homepage": "https://github.com/umm-projects/unirx_observablesimpleanimation",
+  "bugs": {
+    "url": "https://github.com/umm-projects/unirx_observablesimpleanimation/issues"
+  },
+  "scripts": {
+    "umm:init": "umm-init",
+    "umm:generate_assembly_definition": "umm-generate_assembly_definition",
+    "umm:module:install": "umm-module-install",
+    "umm:module:uninstall": "umm-module-uninstall",
+    "postinstall": "npm run --silent umm:module:install",
+    "postuninstall": "npm run --silent umm:module:uninstall"
+  },
+  "author": "Tetsuya Mori",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:umm-projects/unirx_observablesimpleanimation"
+  },
+  "files": [
+    "Assets"
+  ],
+  "dependencies": {
+    "@umm/scripts": "umm-projects/scripts#^1.0.0",
+    "@umm/simple_animation": "umm-projects/simple_animation#^1.0.0",
+    "@umm/unirx": "umm-projects/unirx#^2.0.0"
+  },
+  "devDependencies": {}
+}
