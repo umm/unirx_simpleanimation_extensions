@@ -1,0 +1,14 @@
+{
+    "name": "umm@unirx_simpleanimation_extensions-Tests-PlayMode",
+    "references": [
+        "umm@unirx_simpleanimation_extensions",
+        "umm@simple_animation",
+        "umm@unirx"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

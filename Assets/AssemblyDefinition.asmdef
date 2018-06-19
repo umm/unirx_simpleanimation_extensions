@@ -1,5 +1,5 @@
 {
-    "name": "umm@unirx_observablesimpleanimation",
+    "name": "umm@unirx_simpleanimation_extensions",
     "references": [
         "umm@simple_animation",
         "umm@unirx"
