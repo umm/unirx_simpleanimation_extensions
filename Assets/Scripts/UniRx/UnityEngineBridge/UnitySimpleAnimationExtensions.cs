@@ -29,13 +29,15 @@ namespace UniRx
                         .Select(__ => self[stateName].time)
                         .Take(1)
                         .Where(x => x > 0.0f)
-                        .AsUnitObservable(),
+                        .AsUnitObservable()
+                        .TakeUntilDestroy(self),
                     // ストリームが 0.0f から変化した場合
                     Observable.EveryUpdate()
                         .Select(__ => self[stateName].time)
                         .Pairwise()
                         .Where(pair => Mathf.Approximately(pair.Previous, 0.0f) && pair.Current > 0.0f)
                         .AsUnitObservable()
+                        .TakeUntilDestroy(self)
                 )
                 .Share();
         }
@@ -50,6 +52,7 @@ namespace UniRx
                             .Pairwise()
                             .Where(pair => Mathf.Approximately(pair.Previous, pair.Current))
                             .Take(1)
+                            .TakeUntilDestroy(self)
                 )
                 .AsUnitObservable()
                 .Share();
