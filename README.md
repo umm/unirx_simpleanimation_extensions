@@ -2,7 +2,7 @@
 
 ## What
 
-* Extension methods of `IObservable<T>` for [SimpleAnimation](https://github.com/umm-projects/simple_animation)
+* Extension methods of `IObservable<T>` for [SimpleAnimation](https://github.com/umm/simple_animation)
 
 ## Requirement
 
@@ -12,7 +12,7 @@
 ## Install
 
 ```shell
-yarn add "umm-projects/unirx_simpleanimation_extensions#^1.0.0"
+yarn add "umm/unirx_simpleanimation_extensions#^1.0.0"
 ```
 
 ## Usage
