@@ -1,11 +1,15 @@
 {
     "name": "umm@unirx_simpleanimation_extensions",
     "references": [
-        "umm@simple_animation",
-        "umm@unirx"
+        "GUID:c781736a02678489697db890c554a162",
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285"
     ],
-    "optionalUnityReferences": [],
     "includePlatforms": [],
     "excludePlatforms": [],
-    "allowUnsafeCode": false
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
 }
